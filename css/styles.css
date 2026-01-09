@@ -186,6 +186,14 @@
     margin-bottom: 16px;
 
 }
+.card{
+    width: 300px;
+}
+.card .card-image{
+        margin: 0 auto;
+        border-radius: 50%;
+        padding-top: 8px;
+}
 #second-design .design-box h2{
     color: #001931;
     font-weight: 700;
