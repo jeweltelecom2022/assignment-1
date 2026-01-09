@@ -63,6 +63,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    opacity: 85%;
 }
 #hero-section .hero-container{
  padding: 231px;
@@ -105,6 +106,18 @@
 }
 .hero-button-group a button{
     cursor: pointer;
+    color: #FFFFFF;
+}
+.hero-button-group a{
+    font-weight: 600;
+    font-size: 20px;
+}
+.btn5{
+    background-color: transparent;
+    color: #000000;
+}
+.btn6{
+    background-color: #469165;
 }
 #card-section{
     display: flex;
