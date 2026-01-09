@@ -195,8 +195,11 @@
     color: #001931;
     font-style: normal;
 }
-.get-access{
+.get-container{
     width: 90%;
+    justify-content: center;
+}
+.get-access{
     text-align: center;
 }
 .get-access h2{
@@ -216,6 +219,7 @@
     margin-bottom: 80px;
     margin-top: 16px;
 }
+
 footer{
     margin-top: 200px;
     background-color: #001931;
@@ -246,4 +250,7 @@ footer{
 hr{
     margin: 0px 40px;
     background-color: #E5E7EB;
+}
+.fa-check{
+    color: #469165;
 }
