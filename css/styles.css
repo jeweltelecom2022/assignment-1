@@ -55,9 +55,92 @@
 #hero-section{
     background-image: url(../images/hero-1.jpg);
     background-repeat: no-repeat;
-    height: 674px;
+    min-height: 674px;
     background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 #hero-section .hero-container{
-    margin: 0 auto;
+ padding: 231px;
+}
+.hero-container button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    padding: 8px 12px;
+    width: 219px;
+    height: 35px;
+    border-radius: 8px;
+}
+.hero-container h1{
+    font-size: 72px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 84px;
+}
+.hero-container h1 span{
+    font-size: 72px;
+    font-weight: 500;
+    color: #30B868;
+    line-height: 84px;
+}
+.hero-container p{
+    margin: 16px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.hero-container .hero-button-group .btn2{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    width: 219px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+#card-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 67px;
+    margin-bottom: 16px;
+}
+#card-section .card-title h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#card-section .card-title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #627382;
+    margin-bottom: 26px;
+}
+
+.card-container{
+    width: 71%;
+}
+.card-container .card-box{
+    gap: 20px;
+    display: flex;
+    text-align: center;
+}
+.card-box .card{
+    border: 1px solid gray;
+    padding: 130px 10px 10px 10px;
+}
+.card-box .card img{
+    background-color: #F95555;
+}
+.card-box .card .card-image{
+    height: 60px;
+    width: 60px;
+    background-color: #F95555;
+    align-items: center;
 }
