@@ -12,7 +12,7 @@
     line-height: 100%;
     font-weight: 600;
     color: #FFFFFF;
-    border: 2px solid yellow;
+    border: 1px solid;
     border-radius: 4px;
     text-align: center;
     cursor: pointer;
@@ -24,6 +24,9 @@
     border-bottom: 1px solid black;
     padding: 0px 120px;
     align-items: center;
+}
+.nav-logo{
+    margin: 24px 0px;
 }
 #section-container .navbar{
     display: flex;
@@ -99,6 +102,9 @@
     height: 35px;
     border-radius: 8px;
     background-color: transparent;
+}
+.hero-button-group a button{
+    cursor: pointer;
 }
 #card-section{
     display: flex;
